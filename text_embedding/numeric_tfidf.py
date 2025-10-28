@@ -11,7 +11,7 @@ import lightgbm as lgb
 # STEP 1: Load and Clean Data
 # ============================================
 df = pd.read_csv(
-    r"C:\Users\ASUS\PycharmProjects\Hackathon\68e8d1d70b66d_student_resource\student_resource\dataset\train.csv")
+    "/home/ibab/PycharmProjects/AmazonHackathon/student_resource/dataset/train.csv")
 df_copy = df.copy()
 
 

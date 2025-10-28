@@ -1,0 +1,35 @@
+# IDE and system files
+.idea/
+__pycache__/
+__MACOSX/
+.DS_Store
+
+# Model and data files
+*.pkl
+*.npz
+*.npy
+*.zip
+*.csv
+*.txt
+
+# Experiment outputs
+Final_npz/
+eda_results/
+eda_train_test_comparison/
+embeddings_test*/
+embeddings_train/
+test_embedding/
+text_embedding/embeddings/
+
+# Large model artifacts
+models/ensemble_out.csv
+models/multimodal_predictions.csv
+models/test_out.csv
+lgb_sbert_model.txt
+text_embedding/lgb_sbert_model.txt
+numeric_cols.npy
+text_embedding/numeric_cols.npy
+
+# Local resources
+student_resource/
+
